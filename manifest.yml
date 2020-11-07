@@ -1,7 +1,6 @@
 ---
 applications:
-- name: dotnetHelloWorld
-  random-route: true
+- name: my_app
   memory: 512M
   env:
     DOTNET_CLI_TELEMETRY_OPTOUT: 1
